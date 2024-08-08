@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.container .text {
+  margin: 20px;
+  display: inline-block;
+  position: relative;
+  border: 2px solid #ccc;
+  padding: 10px;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 2px 2px 5px #00000033;
+  border-radius: 5px;
+}
+.container .text h1 {
+  font-size: 20px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.text ul {
+  list-style: none;
+}
+.text ul li {
+  display: inline-block;
+  color: #333;
+  padding: 5px 8px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  border: 2px solid #ccc;
+  text-transform: uppercase;
+  font-size: 14px;
+  cursor: pointer;
+}
+.text #input {
+  width: 100%;
+  padding: 8px 5px;
+  border: 2px solid #ccc;
+  border-radius: 2px;
+  color: #333;
+  font-size: 15px;
+}
+.text #input::placeholder {
+  color: #333;
+}
+
+.delete-btn {
+  margin-left: 5px;
+  background-color: #ccc;
+  padding: 1px 10px;
+  border-radius: 2px;
+  color: #333;
+}
